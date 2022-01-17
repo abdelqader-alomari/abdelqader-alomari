@@ -1,4 +1,6 @@
-### Hi there 👋
+## Hello 👋, and welcome to my GitHub profile!
+
+![about-cover](https://user-images.githubusercontent.com/84499258/149772378-4531f0b2-10c2-43a0-a1df-f2d8635753b3.png)
 
 <!--
 **abdelqader-alomari/abdelqader-alomari** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
