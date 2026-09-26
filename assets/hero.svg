@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Abdelqader Al-Omari — Senior Full-Stack Engineer · AI &amp; Solutions Architect">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b1a"/>
+      <stop offset="0.55" stop-color="#0c1230"/>
+      <stop offset="1" stop-color="#140a2b"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7dd3fc">
+        <animate attributeName="stop-color" values="#7dd3fc;#a78bfa;#f0abfc;#7dd3fc" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.5" stop-color="#a78bfa">
+        <animate attributeName="stop-color" values="#a78bfa;#f0abfc;#7dd3fc;#a78bfa" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#f0abfc">
+        <animate attributeName="stop-color" values="#f0abfc;#7dd3fc;#a78bfa;#f0abfc" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <radialGradient id="orbA"><stop offset="0" stop-color="#6366f1" stop-opacity=".55"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></radialGradient>
+    <radialGradient id="orbB"><stop offset="0" stop-color="#06b6d4" stop-opacity=".45"/><stop offset="1" stop-color="#06b6d4" stop-opacity="0"/></radialGradient>
+    <radialGradient id="orbC"><stop offset="0" stop-color="#d946ef" stop-opacity=".35"/><stop offset="1" stop-color="#d946ef" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".045"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="1"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="gridMask"><rect width="1200" height="420" fill="url(#fade)"/></mask>
+    <clipPath id="clip"><rect width="1200" height="420" rx="22"/></clipPath>
+    <style>
+      .t { font-family: 'Segoe UI', Inter, Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+      .role { font-size: 25px; font-weight: 600; fill: #e2e8f0; opacity: 0; }
+      .r1 { animation: cycle 12s infinite 0s; }
+      .r2 { animation: cycle 12s infinite 3s; }
+      .r3 { animation: cycle 12s infinite 6s; }
+      .r4 { animation: cycle 12s infinite 9s; }
+      @keyframes cycle {
+        0% { opacity: 0; transform: translateY(12px); }
+        4%, 22% { opacity: 1; transform: translateY(0); }
+        26%, 100% { opacity: 0; transform: translateY(-12px); }
+      }
+      .caret { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .float1 { animation: f1 14s ease-in-out infinite; }
+      .float2 { animation: f2 18s ease-in-out infinite; }
+      .float3 { animation: f3 16s ease-in-out infinite; }
+      @keyframes f1 { 50% { transform: translate(60px, 30px); } }
+      @keyframes f2 { 50% { transform: translate(-70px, -20px); } }
+      @keyframes f3 { 50% { transform: translate(40px, -40px); } }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+      @keyframes pulse { 50% { opacity: .35; transform: scale(1.8); } }
+      .chip { font-size: 14px; font-weight: 600; fill: #cbd5e1; }
+      .line { stroke-dasharray: 6 10; animation: dash 3s linear infinite; }
+      @keyframes dash { to { stroke-dashoffset: -64; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="420" fill="url(#bg)"/>
+    <rect width="1200" height="420" fill="url(#grid)" mask="url(#gridMask)"/>
+    <circle class="float1" cx="190" cy="90" r="260" fill="url(#orbA)"/>
+    <circle class="float2" cx="1030" cy="320" r="280" fill="url(#orbB)"/>
+    <circle class="float3" cx="760" cy="40" r="200" fill="url(#orbC)"/>
+
+    <!-- status pill -->
+    <g transform="translate(70 70)">
+      <rect width="262" height="34" rx="17" fill="#ffffff" fill-opacity=".06" stroke="#ffffff" stroke-opacity=".14"/>
+      <circle class="pulse" cx="22" cy="17" r="5" fill="#34d399"/>
+      <circle cx="22" cy="17" r="5" fill="#34d399"/>
+      <text class="t" x="38" y="22.5" font-size="14" font-weight="600" fill="#a7f3d0">Shipping in production · 2026</text>
+    </g>
+
+    <text class="t" x="68" y="178" font-size="66" font-weight="800" letter-spacing="-1.5" fill="url(#name)">Abdelqader Al-Omari</text>
+
+    <g transform="translate(70 226)">
+      <text class="t role r1">Senior Full-Stack Engineer<tspan class="caret" fill="#a78bfa"> ▍</tspan></text>
+      <text class="t role r2">AI &amp; Enterprise Solutions Architect<tspan class="caret" fill="#a78bfa"> ▍</tspan></text>
+      <text class="t role r3">Ships products end to end — idea → production<tspan class="caret" fill="#a78bfa"> ▍</tspan></text>
+      <text class="t role r4">Laravel · Next.js · FastAPI · Flutter · LLMs<tspan class="caret" fill="#a78bfa"> ▍</tspan></text>
+    </g>
+
+    <text class="t" x="70" y="272" font-size="17" fill="#94a3b8">6+ years · enterprise &amp; e-government platforms · apps serving 100K+ users</text>
+    <text class="t" x="70" y="297" font-size="17" fill="#94a3b8">Teams across the USA, MENA &amp; Europe · Arabic / English</text>
+
+    <!-- stack chips -->
+    <g transform="translate(70 330)">
+      <g><rect width="104" height="36" rx="10" fill="#ffffff" fill-opacity=".05" stroke="#f87171" stroke-opacity=".5"/><text class="t chip" x="52" y="23" text-anchor="middle">Laravel</text></g>
+      <g transform="translate(116 0)"><rect width="104" height="36" rx="10" fill="#ffffff" fill-opacity=".05" stroke="#e2e8f0" stroke-opacity=".5"/><text class="t chip" x="52" y="23" text-anchor="middle">Next.js</text></g>
+      <g transform="translate(232 0)"><rect width="104" height="36" rx="10" fill="#ffffff" fill-opacity=".05" stroke="#2dd4bf" stroke-opacity=".5"/><text class="t chip" x="52" y="23" text-anchor="middle">FastAPI</text></g>
+      <g transform="translate(348 0)"><rect width="104" height="36" rx="10" fill="#ffffff" fill-opacity=".05" stroke="#38bdf8" stroke-opacity=".5"/><text class="t chip" x="52" y="23" text-anchor="middle">Flutter</text></g>
+      <g transform="translate(464 0)"><rect width="104" height="36" rx="10" fill="#ffffff" fill-opacity=".05" stroke="#c084fc" stroke-opacity=".5"/><text class="t chip" x="52" y="23" text-anchor="middle">LLMs · RAG</text></g>
+      <g transform="translate(580 0)"><rect width="104" height="36" rx="10" fill="#ffffff" fill-opacity=".05" stroke="#fbbf24" stroke-opacity=".5"/><text class="t chip" x="52" y="23" text-anchor="middle">DevOps</text></g>
+    </g>
+
+    <!-- right: a tiny live "system" motif -->
+    <g transform="translate(900 105)">
+      <rect width="230" height="210" rx="18" fill="#0b1024" fill-opacity=".75" stroke="#ffffff" stroke-opacity=".12"/>
+      <circle cx="22" cy="22" r="5" fill="#f87171"/><circle cx="40" cy="22" r="5" fill="#fbbf24"/><circle cx="58" cy="22" r="5" fill="#34d399"/>
+      <text class="t" x="20" y="62" font-size="13" fill="#64748b" font-family="Consolas, 'Courier New', monospace">$ git push</text>
+      <text class="t" x="20" y="86" font-size="13" fill="#a5b4fc" font-family="Consolas, 'Courier New', monospace">→ build · migrate</text>
+      <text class="t" x="20" y="110" font-size="13" fill="#67e8f9" font-family="Consolas, 'Courier New', monospace">→ HTTPS · health ✓</text>
+      <text class="t" x="20" y="134" font-size="13" fill="#f0abfc" font-family="Consolas, 'Courier New', monospace">→ backup ☁ encrypted</text>
+      <text class="t" x="20" y="164" font-size="15" font-weight="700" fill="#34d399" font-family="Consolas, 'Courier New', monospace">● live<tspan class="caret"> ▍</tspan></text>
+      <path class="line" d="M20 188 H210" stroke="#6366f1" stroke-width="2"/>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="419" rx="22" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+</svg>

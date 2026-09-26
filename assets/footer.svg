@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="Let's build something remarkable">
+  <defs>
+    <linearGradient id="w" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6366f1"/><stop offset=".5" stop-color="#a855f7"/><stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+    <style>
+      .t { font-family: 'Segoe UI', Inter, Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+      .w1 { animation: wave 9s ease-in-out infinite; }
+      .w2 { animation: wave 13s ease-in-out infinite reverse; }
+      @keyframes wave { 50% { transform: translateX(-120px); } }
+      .glow { animation: glow 4s ease-in-out infinite; }
+      @keyframes glow { 50% { opacity: .75; } }
+    </style>
+  </defs>
+  <g class="w2" opacity=".35"><path d="M-200 95 C 100 40, 300 150, 600 95 S 1100 40, 1400 95 V170 H-200Z" fill="url(#w)"/></g>
+  <g class="w1" opacity=".75"><path d="M-200 115 C 150 70, 350 165, 650 115 S 1150 70, 1400 115 V170 H-200Z" fill="url(#w)"/></g>
+  <text class="t glow" x="600" y="52" text-anchor="middle" font-size="30" font-weight="800" fill="#a78bfa">Let's build something remarkable.</text>
+</svg>
